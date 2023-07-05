@@ -24,18 +24,18 @@ html{
 
 
     width: 100vw;
-    height: 70px;
+    height: 50px;
     display: flex;
     justify-content: space-around; /*Coloca espaço entre os itens do content*/
     align-items: center; /*alinha todos ao centro na parte vertical*/
     background-color: #1f1e1f;
     position: fixed; /*fixa na tela o menu de cima, mesmo que o usuário esteja usando a barra de rolagem*/
-    padding-left: 30rem;
-}
+    padding-left: 1rem;
+} 
 
 .logo{  /*estilizando a caixa da logo*/
 
-    width: 70px;
+    width: 45px;
     height: auto;
     cursor: pointer; /*aparece a mãozinha para o ususário poder estar clicando*/
     display: flex;
@@ -45,7 +45,7 @@ html{
 .logo h3{
 
     color: white;
-    font-size: 1.8rem;
+    font-size: 1.2rem;
 }
 
 .logo img{
@@ -57,7 +57,7 @@ html{
 
 .content .list-menu{
 
-    width: 800px;
+    width: 565px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -65,15 +65,16 @@ html{
 
 .content .list-menu li a{
 
-    /*padding-top: 3rem;
-    padding-bottom: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     padding-right: 1rem;
     padding-left: 1rem;
 
-    para facilitar tambem podemos usar o seguinte modo:*/
-    padding: 3rem 1rem 1rem 1rem;
+    /*para facilitar tambem podemos usar o seguinte modo:*/
+    /*padding: 3rem 1rem 1rem 1rem;*/
+
     color: white;
-    font-size: 1.4rem;
+    font-size: 0.8rem;
     text-transform: uppercase;
     font-weight: 500; /*grossura da fonte*/
     transition: all 200ms ease-in; /* ALL=todos os elementos/200MS= velocidade de transição/EASE-IN=efeito de entrada*/
@@ -82,7 +83,7 @@ html{
 .content .list-menu li a:hover{
 
     background-color: #3333;
-    border-bottom: 4px solid #ffc506;
+    border-bottom: 2px solid #ffc506;
     color: #ffc506;
 }
 
@@ -114,7 +115,7 @@ html{
 .first-section h1{
 
     color: #ffc506;
-    font-size: 4.5rem;
+    font-size: 2.5rem;
     text-transform: uppercase;
     margin-bottom: 1rem; /* deixa um espaço embaixo, entre ele e o elemento abaixo*/
 }
@@ -122,23 +123,23 @@ html{
 .first-section h2{
 
     color: rgb(177, 177, 177);
-    font-size: 3rem;
+    font-size: 1.5rem;
     font-weight: 400; /*grossura da font*/
     text-transform: uppercase;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 .btn button{
 
-    width: 360px;
-    height: 85px;
+    width: 350px;
+    height: 55px;
     cursor: pointer;
     text-transform: uppercase;
     background-color: #ffc506;
-    border-radius: 10px;
+    border-radius: 10px; /*arreadonda as bordas*/
     color: black;
     font-weight: 950;
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-top: 5rem; /*distancia do elemento acima*/
     transition: all 400ms ease-in;
     margin: 15px;
@@ -160,7 +161,6 @@ html{
 
 
 }
-
 
 
 
