@@ -159,10 +159,61 @@ html{
     display: flex;
     justify-content:space-between;
 
+}
+
+/* pagina abaixo - Sobre Nós*/
+
+.sobre-nos{
+
+    background-color: #1f1e1f;
+    width: 100%;
+    padding-bottom: 5rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
+.sobre-nos img{
 
+    width: 400px;
+    height: 400px;
+    margin-top: 10rem;
+    margin-left: 10rem;
+    border: 2px solid gainsboro;
+
+}
+
+.main{
+
+    /*joga tudo para o lado*/
+    display: flex;
+    justify-content: space-between;
+}
+
+.contentsobre{
+
+    display: flex;
+    flex-direction: column; /*deixa o titulo em cia e o texto em baixo*/
+    align-items: center;
+    justify-content: center;
+}
+
+.contentsobre h2{
+
+    font-size: 3rem;
+    margin-bottom: 1rem;
+
+}
+
+.contentsobre p{
+
+    text-align: center;
+    font-size: 1rem;
+    width: 600px;
+
+}
 
 
 
