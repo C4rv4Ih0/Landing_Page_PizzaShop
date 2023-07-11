@@ -398,11 +398,26 @@ footer{
 
 /*Media queries - responsividade*/
 
-@media ( max-width: 1024px){
+@media ( max-width: 1200px){
 
     .main{
 
         display: block; /*quando chegar em 1200 o texto sobre acima da imagem*/
+        
+    }
+    
+    .logo{
+
+        margin-left: -100px;
+        width: 30px;
+        margin-bottom: 10px;
+    }
+
+    .logo h3{
+
+        font-size: 15px;
+        
+        
     }
 
     .content {
@@ -419,6 +434,36 @@ footer{
         width: 600px;
         margin-left: -2px;
     }
+
+    .itens-cardapio{
+
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+        grid-template-columns: repeat(3, minmax(20px, 250px));
+        gap: 30px;
+
+    }
+
+    .itens-cardapio .info h4{
+
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        margin-bottom: 0.9rem;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: 130px 130px;
+        margin-left: 5rem;
+        
+    }
+
+    .itens-cardapio .info h4 span{
+
+        font-size: 1rem;
+        color: yellow;
+        text-decoration: underline;
+}
+
 }
 
 @media ( max-width: 850px ){
@@ -429,46 +474,73 @@ footer{
     }
 }
 
+
 @media ( max-width: 768px ){
 
     html{
 
-        font-size: 60%;
+        font-size: 85%;
+
+    }
+    
+    .logo {
+
+        padding-left: 20%;
+    }
+
+    .logo img {
+
+        padding-left: 20%;
+        width: 40px;
     }
 
     .content{
 
         display: flex;
-        flex-direction: row; /*deixa tudo um ao lado do outro*/
+        flex-direction: row;
         justify-content: space-between;
-        padding: 0px 40px;
-        
+        padding:  0px 45px;
     }
 
     .itens-cardapio{
 
+        grid-template-columns: repeat(3, minmax(20px, 250px));
     
-        margin-top: 4rem;
-        margin-bottom: 2rem;
-        grid-template-columns: repeat(3, minmax(20px, 350px));
-        gap: 30px;
-
     }
 
-    .itens-cardapio .info h4 {
+    .itens-cardapio h4{
 
-        font-size: 0.9rem;
-        text-transform: uppercase;
-        margin-bottom: 0.6rem;
-        display: grid;
-        justify-content: center;
-        align-items: center;
-        grid-template-columns: 160px 160px;
         margin-left: 12rem;
-    
     }
+
+    .content .list-menu{
+
+        display: none;
+
+    }
+
+    .one,
+    .two,
+    .three { 
+
+        width: 80%;
+        height: 2px;
+        background-color: white;
+        margin: 6px auto;
+        transition-duration: 0.5s;
+
+    }
+
+    .menu-toggle{
+
+        width: 30px;
+        height: ;
+    }
+
+
 
 }
+        
 
 
 
