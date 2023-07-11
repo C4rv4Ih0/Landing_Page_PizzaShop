@@ -240,14 +240,14 @@ html{
 
 .itens-cardapio{
 
-    width: 80%;
-    margin-top: 2rem;
+    width: 92%;
+    margin-top: 3rem;
     margin-bottom: 2rem;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 450px));
+    grid-template-columns: repeat(auto-fit, minmax(20px, 350px));
     justify-content: center;
     align-items: center;
-    gap: 80px;
+    gap: 60px;
     color: white;
 }
 
@@ -395,6 +395,8 @@ footer{
     justify-content: center;
     
 }
+
+
 
 
 
