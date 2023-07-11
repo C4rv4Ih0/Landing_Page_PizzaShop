@@ -396,6 +396,80 @@ footer{
     
 }
 
+/*Media queries - responsividade*/
+
+@media ( max-width: 1024px){
+
+    .main{
+
+        display: block; /*quando chegar em 1200 o texto sobre acima da imagem*/
+    }
+
+    .content {
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 12%;
+        padding-left: 0px;
+    }
+
+    .sobre-nos img{
+
+        width: 600px;
+        margin-left: -2px;
+    }
+}
+
+@media ( max-width: 850px ){
+
+    html{
+
+        font-size: 80%;
+    }
+}
+
+@media ( max-width: 768px ){
+
+    html{
+
+        font-size: 60%;
+    }
+
+    .content{
+
+        display: flex;
+        flex-direction: row; /*deixa tudo um ao lado do outro*/
+        justify-content: space-between;
+        padding: 0px 40px;
+        
+    }
+
+    .itens-cardapio{
+
+    
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+        grid-template-columns: repeat(3, minmax(20px, 350px));
+        gap: 30px;
+
+    }
+
+    .itens-cardapio .info h4 {
+
+        font-size: 0.9rem;
+        text-transform: uppercase;
+        margin-bottom: 0.6rem;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: 160px 160px;
+        margin-left: 12rem;
+    
+    }
+
+}
+
 
 
 
