@@ -16,6 +16,7 @@ html{
     height: 100vh;
     font-size: 62,5%; /* usar porcentagem e não px, faz com que a gente possa usar o rem, isso ajuda na responsividade do site*/
     overflow-x: hidden; /* tira a barra de rolagem horizontal, ficando apenas a vertical*/
+    background-color: #1f1e1f;
 }
 
 /* Menu */
@@ -429,6 +430,71 @@ footer{
         padding-left: 0px;
     }
 
+    .content.on{
+
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(30, 31, 30, 0.8);
+        z-index: 10; /*fica na frente de tudo*/
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .content.on .logo{
+
+        display: none;
+    }
+
+    .content.on .menu-toggle{
+
+        position: absolute;
+        right: 40px;
+        top: 20px;
+    }
+
+    .content.on .list-menu{
+
+        display: block;
+
+    }
+
+    .content.on .list-menu li{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .content.on .list-menu li a{
+
+        font-size: 1.8rem;
+        display: block;
+    }
+
+    .content.on .menu-toggle .two{
+
+        opacity: 0;
+
+    }
+
+    .content.on .menu-toggle .one{
+
+        transform: rotate(45deg) translate(5px, -8px);
+    }
+
+    .content.on .menu-toggle .three{
+
+        transform: rotate(-45deg) translate(20px, -6px);
+
+    }
+
+
     .sobre-nos img{
 
         width: 600px;
@@ -535,6 +601,20 @@ footer{
 
         width: 30px;
     }
+
+
+
+}
+
+@media ( max-width: 550px ){
+
+    .conteudo-principal h1{
+
+        width: 500px;
+        text-align: center;
+        font-size: 2.8rem;
+    }
+
 
 
 
