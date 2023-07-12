@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
 
+	
+body { overflow-x: hidden; }
+
 *{  /* Zerando a estilização padrão do navegador*/
     margin: 0;
     padding: 0;
@@ -698,7 +701,7 @@ footer{
 @media ( max-width: 400px ){
 
     html{
-        
+
         overflow-x: hidden;
     }
 
